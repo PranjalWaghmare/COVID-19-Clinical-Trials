@@ -1,7 +1,6 @@
 /* ---------------------------------------------------------------------------
   COVID19_Clinical_Trials_Analysis.sql
   Full MySQL script — Cleaning, transformation, analysis, and export
-  Author: Anonymous
   Project: COVID-19 Clinical Trials Dashboard
 --------------------------------------------------------------------------- */
 
@@ -90,4 +89,3 @@ INTO OUTFILE '/var/lib/mysql-files/COVID19_Clinical_Trials_Cleaned.csv'
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n'
 FROM covid_trials_clean;
 
--- End of SQL Script
